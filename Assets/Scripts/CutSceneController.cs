@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CutsceneController : MonoBehaviour
+public class CutSceneController : MonoBehaviour
 {
 
-    public static CutsceneController instancia = null;
+    public static CutSceneController instancia = null;
 
     public AudioClip musica;
 

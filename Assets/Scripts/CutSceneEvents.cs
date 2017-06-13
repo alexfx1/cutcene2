@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFim : MonoBehaviour
+public class CutSceneEvents : MonoBehaviour
 {
 
     public void CameraAcabou()
     {
-        CutsceneController.instancia.ProximaCamera();
+        CutSceneController.instancia.ProximaCamera();
     }
 }
